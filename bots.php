@@ -2,7 +2,7 @@
 
 ob_start(); 
 
-$API_KEY='5301329263:AAEdQCUYdYsh8RcVBweTiuu5BB2JMCCust0;
+$API_KEY='5337800480:AAHbAt04NNGFkGy1FhMlwEYa0swAHx5qVcU;
 
 define('API_KEY',$API_KEY); 
 
@@ -36,7 +36,7 @@ $update = json_decode(file_contents('php://input));
 
 $kt = json_decode(file_get_contents('kt.json'),1);
 
-$admin = "00"; #ايدي
+$admin = "00"; 5042764612
 
 if($text == "اضف كت" and $from_id == $admin){
 
